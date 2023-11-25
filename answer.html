@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./phtube.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<body class="body2 bg-success">
+
+
+    <div class="answers container align-items-center">
+        <div class="accordion accordion-flush w-75 h-75 container m-5" id="accordionFlushExample">
+          
+            <div class="accordion-item mb-3 rounded">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <strong>Discuss the scope of var, let, and const!</strong>
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><strong>VAR:</strong> <br>
+                  Function Scope: Variables declared using `var` are limited to the function within which they are defined. They cannot be accessed outside of that function. <br>                  
+                  <strong>LET:</strong> <br>
+                  Block Scope: Variables declared with `let` have block scope, meaning they are accessible only within the block where they are defined. Blocks include functions, loops, or any code enclosed in curly braces `{}`. <br>                  
+                  <strong>CONST:</strong> <br>
+                  Block Scope: Similar to `let`, `const` variables are block-scoped. <br>
+              </div>
+            </div>
+          
+            <div class="accordion-item mb-3 rounded">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  <strong>Tell us the use cases of null and undefined!</strong>
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><strong>null:</strong> <br>
+                  1.`null` is a specific value in JavaScript that signifies a deliberate absence of any object or general value. It is commonly employed to indicate that a variable or property should intentionally have no assigned value or has been intentionally cleared. <br>
+                  2.It can serve as a placeholder or initial value, implying that it might be assigned a meaningful value later in the code. <br>
+                  
+                  <strong>undefined:</strong> <br>
+                  1.Default Value: In JavaScript, when variables are declared but not assigned a value, they are automatically initialized with `undefined`. Consequently, `undefined` is often employed as the default value for function parameters and variables. <br>
+                  2.Property Access: Attempting to access an object property that does not exist results in `undefined`. <br>
+                  3.Array Elements: If you try to access an array element beyond the current length of the array, the result is `undefined`. <br>
+                  4.Function Return: When a function lacks an explicit return statement, it automatically returns `undefined`.</div>
+              </div>
+            </div>
+          
+            <div class="accordion-item mb-3 rounded">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  <strong>What do you mean by REST API?</strong>
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">A REST API, or Representational State Transfer Application Programming Interface, is a set of rules and conventions that follows the principles of the REST architectural style. It facilitates interaction with RESTful web services, which are part of the interconnected networks that constitute the web. REST APIs enable communication between client-server applications by adhering to open protocols and standards for data exchange. These web services, aligning with REST architecture, are referred to as RESTful web services.</div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="go_back">
+        <div class="blog_button col-md-1 m-auto p-2"><a href="http://127.0.0.1:5500/phtube.html" class="btn bg-black text-white">Go Back</a></div>
+    </div>
+
+    <!-- script added -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
